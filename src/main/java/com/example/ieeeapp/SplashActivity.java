@@ -12,7 +12,7 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        int secondsDelayed = 4;
+        int secondsDelayed = 3;
         new Handler().postDelayed(new Runnable() {
             public void run() {
                 startActivity(new Intent(SplashActivity.this, MainActivity.class));
@@ -22,3 +22,5 @@ public class SplashActivity extends AppCompatActivity {
 
     }
 }
+
+
